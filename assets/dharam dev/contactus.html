@@ -4,7 +4,7 @@
        <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
        <link href="assets/css/style.css" rel="stylesheet">
 
 <title>
@@ -46,6 +46,22 @@
          <p> Mobile No :- <b> +977 9812166013</p> </b>
          <p> Msg Me On Whats'app :- <b> +91 8295078327 </b> 
          </div>
+		 
+		 <div id="map">
+		  <div class="container">
+		    <div class="row">
+			  <div class="common-section-area">
+			   <u> <h1 class="h1Map text-center">My location </h1></u>
+			  </div>
+			</div>
+		  </div>
+		  
+		  <div id="mygooglemap">
+		  </div>
+		  
+		</div>
+		
+		 
        <div class="slide">
          <div class="rtn">
           <span>&raquo;</span>
@@ -60,9 +76,29 @@
 
            </div>
          </div>
-   </div>
+   
 
+<script>
+        function initMap() {
+          var uluru = {lat: 26.906131, lng: 86.042523};
+          var map = new google.maps.Map(document.getElementById('mygooglemap'), {
+            zoom: 7,
+            center: uluru
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+        }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3MAPwtDFVmSAXUhuwQlhijLlLtHZgJR0&callback=initMap">
+      </script>
 
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="assets/js/bootstrap.js"></script>
 
 
 </body>

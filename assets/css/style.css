@@ -315,3 +315,20 @@
 	word-spacing:4px;
 	letter-spacing:1px;
   }
+
+.footer-links li a:hover , .footer-icons li a:hover
+   
+     {
+         
+	 text-decoration:none;
+        
+      }
+
+        
+footer .footer-center-content
+   
+     {
+ 
+         color:#777777;
+   
+     }

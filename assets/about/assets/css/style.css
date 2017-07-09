@@ -201,3 +201,18 @@
 	font-size:20px;
 	margin-left:10px;
   }
+ #mygooglemap
+ 
+  {
+        
+	  height:400px;
+ 
+          width:100%;
+ 
+  }
+
+h1.h1Map
+  {
+	 font-size:50px;
+	 color:gray;
+  }
