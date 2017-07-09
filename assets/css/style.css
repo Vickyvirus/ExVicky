@@ -1,0 +1,317 @@
+@charset "utf-8";
+/* CSS Document */
+.head
+  {
+	  width:1400px;
+	  height:40px;
+	  background:#0F0;
+	  margin:0px auto;
+  }
+.title
+  {
+	font-weight:bold;
+	font-size:22px;
+	word-spacing:2px;
+	margin-left:10px;
+	color:#2A3F00;
+	letter-spacing:1px;
+  }
+.search
+  {
+	float:right;
+	margin-top:5px;
+	margin-right:40px;
+  }
+.search_cls
+  {
+	text:bold;
+  }
+.home_background
+  {
+	width:1400px;
+	height:720px;
+	margin:0px auto;
+	margin-top:5px;
+  }
+.container
+  {
+    position:absolute;
+	top:40%;
+	margin-left:470px;
+	font-size:22px;
+	color:#000080;
+	word-spacing:2px;
+	letter-spacing:2px;
+  }
+/* Dropdown List */
+.menu_holder
+  {
+	width:1400px;
+	height:40px;
+	background:#A0A0A4;
+	margin-top:10px;
+  }
+.menu ul
+  {
+	list-style:none;
+	font-size:20px;
+	font-style:bold;
+  }
+.menu ul li
+     {
+	float:left;
+	width:110px;
+	height:18px;
+	margin-top:4px;
+	text-align:center;
+	font-weight:bold;
+	padding:6px;
+	position:relative;
+	margin-left:80px;
+	background:#0F5;
+      }	
+.menu ul li ul 
+   {
+  margin:0px;
+  padding:15px;
+  visibility:hidden;
+  position:absolute;
+   }
+.menu ul li ul li
+     {
+	margin:0px auto;
+	height:40px;
+	} 
+.menu ul li:hover ul
+     {
+	visibility:visible;
+      }
+.menu ul li:hover
+     {
+	background:#FFFBF0;
+	 }
+/* end dropdown list */
+.ed_head
+  {
+	width:1300px;
+	height:40px;
+	background:#2A1FFF;
+	margin-top:10px;
+	margin-left:50px;
+  }
+.ed_head1
+  {
+    font-size:30px;
+	font-weight:bold;
+	word-spacing:2px;
+	letter-spacing:2px;
+	color:#FFFBF0;
+  }
+ .edu
+  {
+	width:1400px;
+	height:700px;
+	background:#D49FFF;
+	margin:0px auto;
+	margin-top:10px;
+  }
+.catogry
+  {
+    width:1095px;
+	height:40px;
+	background:#FF1FFF;
+	float:left;
+	margin-top:15px;
+	margin-left:150px;
+  }
+.catogry_cls
+  {
+     float:left;
+	 margin-left:250px;
+	 margin-top:10px;
+	 font-size:22px;
+	 word-spacing:2px;
+	 letter-spacing:2px;
+	 font-weight:bold;
+	 color:#FFFBF0;
+  }
+/* Eduction list */
+.list_row
+  {
+	width:600px;
+	height:40px;
+	background:#FFFBF0;
+	margin-left:10px;
+	margin-top:20px;
+  }
+.list_row1
+  {
+	float:left;
+	font-size:22px;
+	margin-left:180px;
+	margin-top:5px;
+	word-spacing:4px;
+	letter-spacing:2px;
+	color:#2A3F00;
+	font-weight:800;
+  }
+.list_nd
+  {
+	width:600px;
+	height:40px;
+	background:#FFFBF0;
+	margin-left:780px;
+	margin-top:20px;
+  }
+.list_nd1
+  {
+	float:left;
+	font-size:22px;
+	margin-left:180px;
+	margin-top:5px;
+	word-spacing:4px;
+	letter-spacing:2px;
+	color:#7F1F00;
+	font-weight:800;
+  }
+.list_menu
+  {
+	width:600px;
+	height:40px;
+	background:#FFFBF0;
+	margin-left:10px;
+	margin-top:20px;
+  }
+.list_menu1
+  {
+	float:left;
+	font-size:22px;
+	margin-left:180px;
+	margin-top:5px;
+	word-spacing:4px;
+	letter-spacing:2px;
+	color:#551F55;
+	font-weight:800;
+  }
+.list_wb
+  {
+	width:600px;
+	height:40px;
+	background:#FFFBF0;
+	margin-left:10px;
+	margin-top:20px;
+  }
+.list_wb1
+  {
+	float:left;
+	font-size:22px;
+	margin-left:180px;
+	margin-top:5px;
+	word-spacing:4px;
+	letter-spacing:2px;
+	color:#7F0000;
+	font-weight:800;
+  }
+.list_hk
+  {
+	width:600px;
+	height:40px;
+	background:#FFFBF0;
+	margin-left:780px;
+	margin-top:20px;
+  }
+.list_hk1
+  {
+	float:left;
+	font-size:22px;
+	margin-left:160px;
+	margin-top:5px;
+	word-spacing:4px;
+	letter-spacing:2px;
+	color:#808000;
+	font-weight:800;
+  }
+.list_et
+  {
+	width:600px;
+	height:40px;
+	background:#FFFBF0;
+	margin-left:780px;
+	margin-top:20px;
+  }
+.list_et1
+  {
+	float:left;
+	font-size:22px;
+	margin-left:180px;
+	margin-top:5px;
+	word-spacing:4px;
+	letter-spacing:2px;
+	color:#7F0000;
+	font-weight:800;
+  }
+.list_jv
+  {
+	width:600px;
+	height:40px;
+	background:#FFFBF0;
+	margin-left:10px;
+	margin-top:20px;
+  }
+.list_jv1
+  {
+	float:left;
+	font-size:22px;
+	margin-left:190px;
+	margin-top:5px;
+	word-spacing:4px;
+	letter-spacing:2px;
+	color:#7F0000;
+	font-weight:800;
+  }
+.list_qz
+  {
+	width:600px;
+	height:40px;
+	background:#FFFBF0;
+	margin-left:780px;
+	margin-top:20px;
+  }
+.list_qz1
+  {
+	float:left;
+	font-size:22px;
+	margin-left:220px;
+	margin-top:5px;
+	word-spacing:4px;
+	letter-spacing:2px;
+	color:#7F0000;
+	font-weight:800;
+  }
+/* Eduction list end */
+.top
+  {
+	width:1400px;
+	height:80px;
+	background:#D49FAA;
+	margin-top:58px;
+  }
+.top_text
+  {
+	font-size:24px;
+	font-weight:bold;
+	margin-left:420px;
+	word-spacing:30px;
+    letter-spacing:2px;
+	color:#FFFBF0;
+  }
+.top_text1
+  {
+	font-size:16px;
+	font-weight:bold;
+	margin-top:15px;
+	text-align:center;
+	color:#7F0055;
+	word-spacing:4px;
+	letter-spacing:1px;
+  }

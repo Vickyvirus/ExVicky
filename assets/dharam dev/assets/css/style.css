@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+/* About Me Css*/
+.main
+  {
+	width:1200px;
+	height:680px;
+	background:#A0A0A4;
+	margin:0px auto;
+  }
+.head
+  {
+	width:1200px;
+	height:80px;
+	background:#AF5;
+  }
+.name
+  {
+	text-align:center;
+	font-size:32px;
+	font-weight:bold;
+	word-spacing:2px;
+	letter-spacing:1px;
+	color:#2A3F00;
+  }
+.nicknm
+  {
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+	margin-top:10px;
+	word-spacing:2px;
+	letter-spacing:2px;
+	color:#500;
+  }
+.ab
+  {
+	width:400px;
+	height:40px;
+	background:#2A1F55;
+	margin:0px auto;
+	margin-top:15px;
+  }
+.abt
+  {
+	font-size:30px;
+	color:#FFFBF0;
+	font-weight:bold;
+	text-align:center;
+	word-spacing:4px;
+	letter-spacing:2px;
+  }
+.textarea
+  {
+	margin-left:150px;
+	margin-top:50px;
+  }
+.down
+  {
+	width:1200px;
+	height:40px;
+	background:#D49F55;
+	margin-top:100px;
+  }
+.back
+  {
+	float:left;
+	margin-top:8px;
+	font-weight:bold;
+	font-size:20px;
+	margin-left:5px;
+  }
+.contact
+  {
+	float:left;
+	margin-top:8px;
+	font-weight:bold;
+	font-size:20px;
+	margin-left:8px;
+  }
+ /* Contact Us Css */
+.heading
+  {
+	width:1200px;
+	height:720px;
+	background:#FFBFFF;
+	margin:0px auto;
+  }
+.manu
+  {
+	width:1200px;
+	height:90px;
+	background:#7F3FAA;
+  }
+.title
+  {
+	text-align:center;
+	color:#FFFBF0;
+	font-size:30px;
+	font-weight:bold;
+	word-spacing:4px;
+	letter-spacing:2px;
+  }
+.antitle
+  {
+	text-align:center;
+	color:#FFFBF0;
+	margin-top:10px;
+	font-size:30px;
+	font-weight:400;
+	word-spacing:2px;
+	letter-spacing:2px;
+  }
+.dash
+  {
+	float:left;
+	width:300px;
+	height:30px;
+	background:#00BF00;
+	margin-top:20px;
+	margin-left:50px;
+  }
+.us
+  {
+	text-align:center;
+	font-size:22px;
+	font-weight:bold;
+  }
+.address
+  {
+	margin-top:100px;
+	margin-left:500px;
+	font-size:24px;
+	font-weight:900;
+	letter-spacing:2px;
+  }
+.add
+  {
+	text-align:center;
+	font-size:22px;
+	margin-right:100px;
+	font-weight:bold;
+	word-spacing:2px;
+	letter-spacing:1px;
+	color:#2A1FFF;
+  }
+.addk
+  {
+	text-align:center;
+	font-size:22px;
+	margin-right:100px;
+	font-weight:bold;
+	word-spacing:2px;
+	letter-spacing:1px;
+	color:#2A3F55;
+	margin-top:10px;
+  }
+.andr
+  {
+	float:right;
+	width:300px;
+	height:30px;
+	background:#00BF00;
+	margin-top:40px;
+	margin-right:50px;
+  }
+.usa
+  {
+	text-align:center;
+	font-size:22px;
+	font-weight:bold;
+  }
+.ph
+  {
+	margin-top:100px;
+	text-align:center;
+	font-size:25px;
+	letter-spacing:2px;
+	margin-right:20px;
+  }
+.slide
+  {
+	width:1200px;
+	height:40px;
+	background:#D49F55;
+	margin-top:100px;
+  }
+.rtn
+  {
+	float:left;
+	margin-top:8px;
+	font-weight:bold;
+	font-size:20px;
+	margin-left:5px;
+  }
+.rtns
+  {
+	float:left;
+	margin-top:8px;
+	font-weight:bold;
+	font-size:20px;
+	margin-left:10px;
+  }
